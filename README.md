@@ -13,25 +13,25 @@ package com.mycompany.tiposprimitivos;
 public class TiposPrimitivos {
 
 public static void main (String[] args) {
-    // Declaração de variáveis primitivas
-    byte idade=25; //Armazena números pequenos de 2 a 3 variáveis
-    short ano = 2024; //Pode ter de 4 até 5 variáveis
-    int populacaoCidade = 500000; //Tipo mais comum para números inteiros
-    long populacaoMundial =8000000000L; // Necessário 'L' para valores longos
+       byte Quantidade = 25; //Armazena números pequenos de 2 a 3 variáveis
+    short Salario = 2184; //Pode ter de 4 até 5 variáveis
+    int Relogios = 500000; //Tipo mais comum para números inteiros
+    long Quantidadedecachorrosnomundo =8000000000L; // Necessário a letra 'L' para valores longos
     
-    float altura = 1.75f; // Necessário 'f' no final para indicar float
-    double peso = 72.5; // Mais preciso que float
+    float centimetros = 1.75f; // Necessário 'f' no final para indicar float
+    double gramas = 72.5; // Mais preciso que o float
     
-    char inicial = 'J'; //Armazena um único caractere(variavel)
-    boolean ativo = true; //Armazena verdadeiro ou falso
+    char Letra = 'J'; //Armazena um único caractere(variavel)
+    boolean ligado = true; //Armazena verdadeiro ou falso
     
     //Exibição dos valores
-    System.out.println("idade: " + idade);
-    System.out.println("Ano: " + ano);
-    System.out.println("População da cidade: " + populacaoCidade);
-    System.out.println("População mundial: " + populacaoMundial);
-    System.out.println("Altura: " + altura + "m");
-    System.out.println("Peso: " + peso + "kg");
-    System.out.println("Inicial do Nome: " + inicial);
-    System.out.println("Está ativo? " + ativo);
+    System.out.println("Quantidade: " + Quantidade);
+    System.out.println("Salario: " + Salario);
+    System.out.println("Quantidade de relógios: " + Relogios);
+    System.out.println("População de Cachorros: " + Quantidadedecachorrosnomundo);
+    System.out.println("largura: " + centimetros + "cm");
+    System.out.println("Peso: " + gramas + "g");
+    System.out.println("Letra do Nome: " + Letra);
+    System.out.println("Está ligado?: " + ligado);
+}
 }}rimitivos.java…]()
