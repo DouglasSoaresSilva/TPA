@@ -15,20 +15,25 @@ public class Dados {
         byte mes = scanner.nextByte();
         System.out.println("Digite o ano que você nasceu: ");
         short ano = scanner.nextShort();
-        System.out.println("Digite seu curso: ");
-        String texto = scanner.nextLine();
+        scanner.nextLine();
         System.out.println("Digite sua série: ");
-        int serie = scanner.nextInt();
+        String serie = scanner.nextLine();
+        //Parte mais pessoal
         System.out.println("Digite sua altura: ");
         double altura = scanner.nextDouble();
+        System.out.println("Digite seu curso: ");
+        String curso = scanner.nextLine();
+        scanner.nextLine();
         System.out.println("Digite seu peso: ");
         double peso = scanner.nextDouble();
 //Exibindo
+       System.out.println("Seus dados são: ");
        System.out.println("Nome: " + nome);
        System.out.println("Data de Nascimento: " + dia + "/" + mes + "/" + ano);
-       System.out.println("Curso: " + texto);
+       System.out.println("Curso: " + curso);
        System.out.println("Série: " + serie);
        System.out.println("Altura: " + altura + "cm");
        System.out.println("Peso: " + peso + "kg");
+       scanner.close();
     }
 }
