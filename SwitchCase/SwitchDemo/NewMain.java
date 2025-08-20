@@ -4,6 +4,7 @@ public class NewMain {
     public static void main(String[] args) {
         // TODO code application logic here
          Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite um mês:");
          short mes = scanner.nextShort();
       switch (mes) {
           case 1:  
@@ -47,4 +48,5 @@ public class NewMain {
               break;
       }
   }
+
 }
