@@ -8,19 +8,12 @@
 <body>
     <h1>Explicação dos Códigos em Java - Do...While</h1>
     <h2>1. Números Pares entre 1 e 20</h2>
-        <p>Este programa tem como objetivo imprimir todos os números pares entre 1 e 20. A lógica utilizada
-            é a de começar com o número 2 (o primeiro número par) e, em seguida, incrementar 2 a cada iteração
-            para garantir que o número seja par. A estrutura <strong>do...while</strong> é usada para garantir que
-            o código dentro do loop seja executado pelo menos uma vez, e a condição do loop verifica se o número
-            atual ainda é menor ou igual a 20, permitindo que o loop continue até que o número ultrapasse 20.</p>
+        <p>Tem como objetivo imprimir todos os números pares entre 1 e 20. O código começa com o número 2 (o primeiro número par) e, em seguida, incrementa 2 a cada iteração para garantir que o número seja par. A estrutura <strong>do...while</strong> é usada para garantir que o código dentro do loop seja executado pelo menos uma vez, e a condição do loop verifica se o número ainda é menor ou se é igual a 20, permitindo que o loop continue até que o número ultrapasse 20.</p>
    <br>
 <h2>2. Tabuada do Número Informado</h2>
         <p>
             Esse código solicita que o usuário informe um número e exibe a tabuada desse número
-            de 1 a 10. A estrutura <strong>do...while</strong> é utilizada para realizar as multiplicações.
-            A variável "i" começa valendo 1 e, a cada vez, ela é incrementada mais uma vez e faz isso até atingir 10. 
-            Para cada valor de "i", o programa imprime o resultado da multiplicação do número fornecido pelo usuário
-            com o valor de "i". O loop termina quando "i" atinge o valor 11. 
+            de 1 a 10. A estrutura <strong>do...while</strong> é utilizada para realizar as multiplicações. A variável "i" começa valendo 1 e, a cada vez, ela é incrementada mais uma vez e faz isso até atingir 10. Para cada valor de "i", o programa imprime o resultado da multiplicação do número fornecido pelo usuário com o valor de "i". O loop termina quando "i" atinge o valor 11. 
         </p>
     <br>
      <h2>3. Contagem de Números entre 100 e 125</h2>
@@ -33,7 +26,8 @@
         </p>
      <h2>4. Soma dos números Ímpares</h2>
         <p>
-            Este código exibe a soma 
+            Este código exibe e calcula a soma de todos os números ímpares entre um valor inicial e um valor final fornecidos pelo usuário, usando uma estrutura de repetição <strong>do...while</strong>, o programa começa no número inicial e continua incrementando até atingir o valor final.
+            Para cada número no intervalo, o programa verifica se o número é ímpar, ou seja, se o número tem o resto 1 quando dividido por 2 (condição: <code>numero % 2 != 0</code>). Se o número for ímpar, ele é somado a uma variável acumuladora chamada <strong>soma</strong>.O processo continua até que o número ultrapasse o valor final. Ao final do loop, o código mostra a soma de todos os números ímpares no intervalo dos 2 valores inseridos pelo usuários.
         </p>
 </body>
 </html>
