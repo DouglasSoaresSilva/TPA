@@ -7,84 +7,34 @@
 </head>
 <body>
     <h1>Explicação dos Códigos em Java - Do...While</h1>
-
-    <div class="section">
-        <h2>1. Números Pares entre 1 e 20</h2>
-        <p>Este programa exibe todos os números pares entre 1 e 20. Ele utiliza a estrutura de repetição <code>do...while</code> para garantir que o código seja executado pelo menos uma vez antes de verificar a condição.</p>
-        <pre>
-package com.mycompany.numerospares;
-import java.util.Scanner;
-//Código feito por Douglas Soares Silva - Professor Marcelo Collado
-public class Numerospares {
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int numero = 2; //Começa com dois porque o primeiro número par é 2
-
-        System.out.println("Os números pares entre 1 e 20 são:");
-        do {
-            System.out.print(numero + " ");
-            numero += 2; // Incrementa 2 para o próximo número par
-        } while (numero <= 20); // Continua enquanto número <= 20
-        sc.close(); // Fecha o Scanner
-    }
-}
-        </pre>
-    </div>
-
-    <div class="section">
-        <h2>2. Tabuada do Número Informado</h2>
-        <p>Este programa solicita ao usuário um número e exibe a tabuada de multiplicação desse número. A estrutura <code>do...while</code> é usada para garantir que a tabuada seja exibida de 1 a 10.</p>
-        <pre>
-package com.mycompany.tabuada;
-import java.util.Scanner;
-//Código feito por Douglas Soares Silva - Professor Marcelo Collado
-public class Tabuada {
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Digite um número para exibir a tabuada dele: ");
-        int numero = sc.nextInt(); // Lê a entrada do usuário
-
-        int i = 1; // Inicializa o contador
-        System.out.println("Tabuada do " + numero + ":");
-        do {
-            System.out.println(numero + " x " + i + " = " + (numero * i)); // Exibe o cálculo
-            i++; // Incrementa o contador
-        } while (i <= 10); // Continua enquanto i <= 10
-        sc.close(); // Fecha o Scanner
-    }
-}
-        </pre>
-    </div>
-
-    <div class="section">
-        <h2>3. Contagem de Números entre 100 e 125</h2>
-        <p>Este programa exibe todos os números entre 100 e 125 e também conta quantos números foram exibidos. A estrutura <code>do...while</code> garante que o código continue enquanto o número for menor ou igual a 125.</p>
-        <pre>
-package com.mycompany.contagemdosnumeros;
-import java.util.Scanner;
-//Código feito Douglas Soares Silva - Professor Marcelo Collado
-public class ContagemdosNumeros {
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int numero = 100;
-        int contador = 0; // Contador para contar os números exibidos
-
-        System.out.println("Números entre 100 e 125:");
-        do {
-            System.out.print(numero + " "); // Exibe o número atual
-            contador++; // Incrementa o contador
-            numero++; // Passa para o próximo número
-        } while (numero <= 125); // Continua enquanto o número for <= 125
-
-        System.out.println("Quantidade total de números: " + contador); // Exibe o total de números
-        sc.close(); // Fecha o Scanner
-    }
-}
-        </pre>
-    </div>
+    <h2>1. Números Pares entre 1 e 20</h2>
+        <p>Este programa tem como objetivo imprimir todos os números pares entre 1 e 20. A lógica utilizada
+            é a de começar com o número 2 (o primeiro número par) e, em seguida, incrementar 2 a cada iteração
+            para garantir que o número seja par. A estrutura <strong>do...while</strong> é usada para garantir que
+            o código dentro do loop seja executado pelo menos uma vez, e a condição do loop verifica se o número
+            atual ainda é menor ou igual a 20, permitindo que o loop continue até que o número ultrapasse 20.</p>
+   <br>
+<h2>2. Tabuada do Número Informado</h2>
+        <p>
+            Esse código solicita que o usuário informe um número e exibe a tabuada desse número
+            de 1 a 10. A estrutura <strong>do...while</strong> é utilizada para realizar as multiplicações.
+            A variável "i" começa valendo 1 e, a cada vez, ela é incrementada mais uma vez e faz isso até atingir 10. 
+            Para cada valor de "i", o programa imprime o resultado da multiplicação do número fornecido pelo usuário
+            com o valor de "i". O loop termina quando "i" atinge o valor 11. 
+        </p>
+    <br>
+     <h2>3. Contagem de Números entre 100 e 125</h2>
+        <p>
+            Este programa exibe todos os números entre 100 e 125 e também conta quantos números foram exibidos.
+            A lógica usada é muito simples: o número inicial é 100, e a cada iteração, ele é incrementado em 1.
+            O programa utiliza a estrutura <strong>do...while</strong> para garantir que a exibição de números
+            aconteça até que o número atinja 125. O contador é incrementado a cada vez que um número é exibido
+            e, ao final, o programa mostra quantos números foram mostrados entre 100 e 125.
+        </p>
+     <h2>4. Soma dos números Ímpares</h2>
+        <p>
+            Este código exibe a soma 
+        </p>
 </body>
 </html>
 
