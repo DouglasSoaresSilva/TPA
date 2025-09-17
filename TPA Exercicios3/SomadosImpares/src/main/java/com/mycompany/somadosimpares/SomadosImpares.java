@@ -1,5 +1,6 @@
 package com.mycompany.somadosimpares;
 import java.util.Scanner;
+//Código feito por DouglasSoaresSilva - Professor Marcelo Collado
 public class SomadosImpares {
 
     public static void main(String[] args) {
