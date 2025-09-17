@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Códigos em Java</title>
-    <style>
+    <    <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
