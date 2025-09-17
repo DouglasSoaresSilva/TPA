@@ -3,35 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #ddd;
-            overflow-x: auto;
-        }
-        code {
-            background-color: #f4f4f4;
-            font-family: Consolas, 'Courier New', monospace;
-            color: #d6336c;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-    </style>
+
 </head>
 <body>
-    <h1>README - Explicação dos Códigos em Java</h1>
+    <h1>Explicação dos Códigos em Java - Do...While</h1>
 
     <div class="section">
         <h2>1. Números Pares entre 1 e 20</h2>
