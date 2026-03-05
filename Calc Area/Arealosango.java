@@ -14,7 +14,7 @@ public class Arealosango {
     //Calculo da Area do Losango
        double diagonalmaior = 50;
        double diagonalmenor = 30;
-       double area = diagonalmaior !=0 ? diagonalmaior / diagonalmenor : Double.NaN;
+       double area = (diagonalmenor != 0) ? (diagonalmaior * diagonalmenor) / 2.0 : Double.NaN;
     //Exibindo Resultado
      System.out.println("Area do Losango: " + area);
     }
